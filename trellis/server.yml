@@ -17,7 +17,7 @@
     - { role: python_interpreter, tags: [always] }
 
 - name: WordPress Server - Install LEMP Stack with PHP 7.3 and MariaDB MySQL
-  hosts: web:&{{ env }}
+  hosts: alt-d:&{{ env }}
   become: yes
   roles:
     - { role: common, tags: [common] }
