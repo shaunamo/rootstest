@@ -7,7 +7,8 @@ users:
     groups:
       - "{{ web_group }}"
     keys:
-             - http://alt-d.co.uk/keys.txt
+      - http://alt-d.co.uk/keys.txt
+
    
   - name: "{{ admin_user }}"
     groups:
