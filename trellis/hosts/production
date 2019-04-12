@@ -2,14 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-<<<<<<< Updated upstream
-188.166.151.110
-
-[web]
-188.166.151.110
-=======
 134.209.55.48
 
 [web]
 134.209.55.48
->>>>>>> Stashed changes
