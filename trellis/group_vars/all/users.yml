@@ -1,9 +1,9 @@
 # Documentation: https://roots.io/trellis/docs/ssh-keys/
-admin_user: alt-d
+admin_user: web
 
 # Also define 'vault_users' (`group_vars/staging/vault.yml`, `group_vars/production/vault.yml`)
 users:
-  - name: "{{ web_user }}"
+  - name: web
     groups:
       - "{{ web_group }}"
     keys:
