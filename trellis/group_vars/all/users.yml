@@ -7,15 +7,15 @@ users:
     groups:
       - "{{ web_group }}"
     keys:
-      - http://alt-d.co.uk/keys.txt
+      - https://github.com/shaunamo.keys
 
    
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
-         - http://alt-d.co.uk/keys.txt
-web_user: alt-d
+         - https://github.com/shaunamo.keys
+web_user: web
 web_group: www-data
 web_sudoers:
   - "/usr/sbin/service php7.3-fpm *"

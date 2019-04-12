@@ -3,11 +3,11 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  amisonltd.co.uk:
+  dev.alt-d.co.uk:
     site_hosts:
-      - canonical: amisonltd.co.uk
+      - canonical: dev.alt-d.co.uk
         redirects:
-          - www.amisonltd.co.uk
+          - dev.alt-d.co.uk
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:shaunamo/rootstest.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
