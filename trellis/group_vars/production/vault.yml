@@ -10,7 +10,7 @@ vault_users:
 # Variables to accompany `group_vars/production/wordpress_sites.yml`
 # Note: the site name (`example.com`) must match up with the site name in the above file.
 vault_wordpress_sites:
-  dev.alt-d.co.uk:
+  dev.safewords.co.uk:
     env:
       db_password: #RLLE3)h9z9RDMT6d/4%
       # Generate your keys here: https://roots.io/salts.html
