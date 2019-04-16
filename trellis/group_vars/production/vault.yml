@@ -13,7 +13,7 @@ vault_users:
 vault_wordpress_sites:
   dev.safewords.co.uk:
     env:
-      db_password: #RLLE3)h9z9RDMT6d/4%
+      db_password: Orlajayne1
       # Generate your keys here: https://roots.io/salts.html
   auth_key: "<#S#T_5IuzI+Za0rp<=F*6%>bf*IMWhS%o3Db6O(Zmr{$|SW[n9lWB9LCfs!ohco"
   secure_auth_key: "]aRk9MRFI!5D?`X79-Vb!,CbBYW2?^`y>)<$2@2,UrvkZp+)o>9qO^p9<7g)PpzG"
