@@ -1,5 +1,6 @@
 # Documentation: https://roots.io/trellis/docs/vault/
-vault_mysql_root_password: z3Q6m3x8y?j@k&3+xuBq
+# vault_mysql_root_password: z3Q6m3x8y?j@k&3+xuBq
+vault_mysql_root_password: Orlajayne1
 
 # Documentation: https://roots.io/trellis/docs/security/
 vault_users:
