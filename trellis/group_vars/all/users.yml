@@ -8,13 +8,14 @@ users:
       - "{{ web_group }}"
     keys:
       - http://alt-d.co.uk/keys.txt
-
+      - https://github.com/shaunamo.keys
    
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
          - http://alt-d.co.uk/keys.txt
+         - https://github.com/shaunamo.keys
 web_user: web
 web_group: www-data
 web_sudoers:
