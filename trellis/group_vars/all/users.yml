@@ -1,5 +1,5 @@
 # Documentation: https://roots.io/trellis/docs/ssh-keys/
-admin_user: alt-d
+admin_user: admin
 
 # Also define 'vault_users' (`group_vars/staging/vault.yml`, `group_vars/production/vault.yml`)
 users:
@@ -7,13 +7,14 @@ users:
     groups:
       - "{{ web_group }}"
     keys:
+      - http://alt-d.co.uk/keys.txt
       - https://github.com/shaunamo.keys
-
    
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
+         - http://alt-d.co.uk/keys.txt
          - https://github.com/shaunamo.keys
 web_user: web
 web_group: www-data

@@ -37,3 +37,4 @@
   shell: sudo service php7.3-fpm reload
   args:
     warn: false
+  become: yes  
